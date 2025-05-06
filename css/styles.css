@@ -270,13 +270,68 @@ nav {
 }
 
 /* Hire Us SECTION */
+/* LEFT */
+
+.hireUs {
+  padding: 30px;
+  width: fill;
+  height: 708px;
+  display: flex;
+  flex-direction: row;
+  background-color: #20335b;
+}
+
+.leftPart {
+  gap: 60px;
+  padding: 0 0 0 30px;
+  /* width: 482px; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* TOP */
+
+.topPart .phase {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+}
+
+.hireUsData {
+  gap: 34px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hireTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hireTitle span {
+  color: #ffffff;
+}
+
+.hireTitle p {
+  color: #677788;
+}
+
+.phase span {
+  color: #ffffff;
+}
+
+/* BOTTOM */
+
+.bottomPart {
+}
 
 /* Footer */
 
 footer {
   padding: 80px;
-  background: #1d2939;
-  color: white;
+  background: #ffffff;
+  color: black;
 }
 
 .footer-container {
