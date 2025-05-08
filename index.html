@@ -233,43 +233,51 @@
       </div>
     </div>
 
+    <!-- RIGHT PART -->
+
     <div class="rightPart">
+
+
       <form class="hire-us-form" action="/action_page.php" method="post">
-        <span>Fill out the form and we'll be in touch as soon as possible</span>
-        <label for="attributes"></label>
-        <input id="name-input" value="" size="30" maxlength="30" placeholder="First name" required type="text">
-        <label for="last"></label>
-        <input id="last" type="text" value="" maxlength="30" placeholder="Last name" required>
-        <label for="email-input"></label>
-        <input id="email-input" type="email" size="30" placeholder="Email">
+        <div class="formData">
+          <p>Fill out the form and we'll be in touch as soon as possible</p>
+          <label for="first"></label>
+          <input id="first" value="" size="30" maxlength="30" placeholder="First name" required type="text">
 
-        <label for="budget"></label>
-        <select id="budget" name="budget">
-          <option value="0">Budget</option>
-          <option value="less40k">$</option>
-          <option value="40-60K">$$</option>
-          <option value="60+">$$$</option>
-        </select>
+          <label for="last"></label>
+          <input id="last" type="text" value="" maxlength="30" placeholder="Last name" required>
 
-        <select id="country" name="country">
-          <option value="0">Country</option>
-          <option value="c1">c1</option>
-          <option value="c2">c2</option>
-          <option value="c3">c3</option>
-        </select>
+          <label for="email-input"></label>
+          <input id="email-input" type="email" size="30" placeholder="Email">
 
-        <label for="comments"></label><br>
-        <textarea id="comments" name="comments" rows="10" cols="60">Tell us more about your project, needs, and timeline, please... 
+          <label for="budget"></label>
+          <select id="budget" name="budget">
+            <option value="0">Budget</option>
+            <option value="less40k">$</option>
+            <option value="40-60K">$$</option>
+            <option value="60+">$$$</option>
+          </select>
+
+          <select id="country" name="country">
+            <option value="0">Country</option>
+            <option value="c1">c1</option>
+            <option value="c2">c2</option>
+            <option value="c3">c3</option>
+          </select>
+
+          <label for="comments"></label><br>
+          <textarea id="comments" name="comments" rows="10" cols="60">Tell us more about your project, needs, and timeline, please... 
            </textarea>
 
-        <input name="marketing" id="marketing" type="checkbox" value="yes">
-        <label for="marketing">Yes, I'd like to recieve occasional marketing emails
-          from Font. I have the right to opt out at any time. </label>
+          <input name="marketing" id="marketing" type="checkbox" value="yes">
+          <label for="marketing">Yes, I'd like to recieve occasional marketing emails
+            from Font. I have the right to opt out at any time. </label>
 
 
-        <span>View privacy policy</span>
-        <span>View privacy polucy</span>
-        <button>Submit Form</button>
+          <span>View privacy policy</span>
+          <span>View privacy polucy</span>
+          <button>Submit Form</button>
+        </div>
       </form>
     </div>
   </section>

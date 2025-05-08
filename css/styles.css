@@ -326,6 +326,31 @@ nav {
 .bottomPart {
 }
 
+/* RIGHT PART */
+
+.rightPart {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  gap: 37px;
+}
+
+.formData p {
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.formData {
+  gap: 20px;
+}
+
 /* Footer */
 
 footer {
