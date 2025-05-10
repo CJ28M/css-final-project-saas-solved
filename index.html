@@ -216,8 +216,8 @@
           <div class="hireTitle">
             <span>Hire Us</span>
             <p>Whatever your goal - we will get you there</p>
+            <span class="line2"></span>
           </div>
-          <hr>
         </div>
         <div class="phase">
           <span> "I love font! I love the ease of use, I love the fact that I have total creative freedom..."</span>
@@ -241,41 +241,54 @@
       <form class="hire-us-form" action="/action_page.php" method="post">
         <div class="formData">
           <p>Fill out the form and we'll be in touch as soon as possible</p>
-          <label for="first"></label>
-          <input id="first" value="" size="30" maxlength="30" placeholder="First name" required type="text">
 
-          <label for="last"></label>
-          <input id="last" type="text" value="" maxlength="30" placeholder="Last name" required>
+          <div class="formGroup">
+            <label for="first"></label>
+            <input id="first" value="" size="30" maxlength="30" placeholder="First name" required type="text">
+            <label for="last"></label>
+            <input id="last" type="text" value="" maxlength="30" placeholder="Last name" required>
+          </div>
 
-          <label for="email-input"></label>
-          <input id="email-input" type="email" size="30" placeholder="Email">
+          <div class="formGroup">
+            <label for="email-input"></label>
+            <input id="email-input" type="email" size="30" placeholder="Email">
+          </div>
 
-          <label for="budget"></label>
-          <select id="budget" name="budget">
-            <option value="0">Budget</option>
-            <option value="less40k">$</option>
-            <option value="40-60K">$$</option>
-            <option value="60+">$$$</option>
-          </select>
+          <div class="formGroup">
 
-          <select id="country" name="country">
-            <option value="0">Country</option>
-            <option value="c1">c1</option>
-            <option value="c2">c2</option>
-            <option value="c3">c3</option>
-          </select>
+            <label for="budget"></label>
+            <select id="budget" name="budget">
+              <option value="0">Budget</option>
+              <option value="less40k">$</option>
+              <option value="40-60K">$$</option>
+              <option value="60+">$$$</option>
+            </select>
 
-          <label for="comments"></label><br>
-          <textarea id="comments" name="comments" rows="10" cols="60">Tell us more about your project, needs, and timeline, please... 
+            <select id="country" name="country">
+              <option value="0">Country</option>
+              <option value="c1">c1</option>
+              <option value="c2">c2</option>
+              <option value="c3">c3</option>
+            </select>
+          </div>
+
+          <label for="comments"></label>
+          <textarea id="comments" name="comments" rows="10" cols="60">Tell us more about your project, 
+            needs, and timeline, please... 
            </textarea>
 
-          <input name="marketing" id="marketing" type="checkbox" value="yes">
-          <label for="marketing">Yes, I'd like to recieve occasional marketing emails
-            from Font. I have the right to opt out at any time. </label>
+          <div class="formGroup">
 
+            <input name="marketing" id="marketing" type="checkbox" value="yes">
+            <label for="marketing">Yes, I'd like to recieve occasional marketing emails
+              from Font. I have the right to opt out at any time. </label>
+          </div>
 
-          <span>View privacy policy</span>
-          <span>View privacy polucy</span>
+          <div class="form20">
+            <p>View privacy policy</p>
+            <p>View privacy policy</p>
+          </div>
+
           <button>Submit Form</button>
         </div>
       </form>
