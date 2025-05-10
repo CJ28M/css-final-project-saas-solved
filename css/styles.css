@@ -117,19 +117,19 @@ nav {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
 }
 
-.feature-grid {
+/* .feature-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-}
+} */
 
-.feature-card {
+/* .feature-card {
   padding: 32px;
   border-radius: 12px;
   background: #f9fafb;
-}
+} */
 
-.feature-icon {
+/* .feature-icon {
   width: 48px;
   height: 48px;
   background: #7f56d9;
@@ -150,7 +150,7 @@ nav {
 
 .feature-card p {
   color: #667085;
-}
+} */
 
 /* learning */
 
@@ -370,68 +370,68 @@ nav {
 /* Footer */
 
 footer {
-  padding: 80px;
-  background: #ffffff;
+  height: 246px;
+  width: 100%;
+  padding: 40px 30px 40px 30px;
+  gap: 40px;
   color: black;
+  border: 2px solid red;
 }
 
-.footer-container {
-  max-width: 1440px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 64px;
-}
-
-.footer-logo {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 24px;
-}
-
-.footer-about p {
-  color: #eaecf0;
-  margin-bottom: 24px;
-}
-
-/* .social-icons {
+.frame2 {
+  height: 166px;
   display: flex;
-  gap: 16px;
+  flex-direction: row;
+  /* display: grid; */
+  /* grid-template-columns: 2fr 1fr 1fr 1fr; */
+  gap: 40px;
+  border: 2px solid orange;
 }
 
-.social-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #344054;
+.frame14 {
+  height: 93.76px;
+  width: 251px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo1 {
+  width: 100px;
+  height: 29.76px;
+}
+
+.menuItem {
+  font-size: 14px;
+}
+
+.frame15 {
+  height: 166px;
+  display: flex;
+  flex-direction: row;
+  gap: 49px;
+}
+
+/* .footer-about .logo {
+  width: 100px;
+  height: 29.76px;
 } */
 
-.footer-links h3 {
+/* .footer-links h3 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 24px;
-}
+} */
 
-.footer-links ul {
+/* .footer-links ul {
   list-style: none;
-}
+} */
 
-.footer-links li {
+/* .footer-links li {
   margin-bottom: 16px;
-}
+} */
 
-.footer-links a {
-  color: #eaecf0;
+/* .footer-links a {
+  color: black;
   text-decoration: none;
-}
-
-.copyright {
-  padding: 24px 80px;
-  background: #1d2939;
-  color: #eaecf0;
-  text-align: center;
-  border-top: 1px solid #344054;
-}
+} */
