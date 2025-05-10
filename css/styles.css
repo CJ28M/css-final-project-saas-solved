@@ -403,6 +403,7 @@ footer {
 
 .menuItem {
   font-size: 14px;
+  gap: 9px;
 }
 
 .frame15 {
@@ -410,6 +411,47 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 49px;
+}
+
+.frame16 {
+  gap: 20px;
+  width: 110px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.menuItem2 {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+  gap: 9px;
+}
+
+.career {
+  font-size: 14px;
+}
+
+.badge {
+  height: auto;
+  width: auto;
+  font-size: 8px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: 510;
+  background-color: #2476ff;
+  padding: 2px 4px 2px 4px;
+  gap: 10px;
+  align-self: auto;
+  align-content: center;
+}
+
+.nav16,
+.nav17,
+.nav18,
+.nav19 {
+  gap: 10px;
 }
 
 /* .footer-about .logo {
