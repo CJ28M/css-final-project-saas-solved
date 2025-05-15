@@ -137,7 +137,7 @@ nav {
   flex-direction: column;
   padding: 0 30px 80px 30px;
   gap: 40px;
-  border: 8px solid green;
+  /* border: 8px solid green; */
 }
 .whyFontTitle {
   display: flex;
@@ -168,6 +168,7 @@ nav {
   display: flex;
   flex-direction: row;
   padding: 0 34px 0 34px;
+  justify-content: center;
   border: 2px solid aqua;
 }
 
@@ -212,10 +213,13 @@ nav {
 }
 
 .bulletCircle .bulletIn {
+  display: flex;
   width: 6px;
   height: 6px;
   border-radius: 3px;
   background-color: #0066ff;
+  justify-self: center;
+  align-self: baseline;
 }
 
 .bulletTitle {
