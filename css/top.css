@@ -58,7 +58,7 @@ nav {
   line-height: 100%;
 }
 
-/* --------------------------- */
+/* ------HERO--SECTION--------- */
 
 .asana,
 .atlassian,
@@ -75,13 +75,7 @@ nav {
   
   cursor: pointer;
   border: none;
-}
-
-
-
-
-
-/* Icons section */
+} */
 
 .hero {
   display: flex;
@@ -89,11 +83,14 @@ nav {
   padding: 40px 30px 0 30px;
   /* width: 1024px; */
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background: url(/assets/bg/background-top.svg);
 }
 
 .leftPart {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   padding: 0 0 60px 0;
   gap: 30px;
 }
@@ -101,6 +98,7 @@ nav {
 .title {
   display: flex;
   flex-direction: column;
+  gap: 11px;
 }
 
 .title h2 {
@@ -122,12 +120,13 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
 }
 
 .action button {
   border-radius: 30px;
-  padding: 12px 25px 15px 25px;
+  padding: 15px 25px 15px 25px;
+  gap: 8px;
   background-color: #2476ff;
   color: #ffffff;
 }
@@ -138,9 +137,10 @@ nav {
   line-height: 100%;
   text-decoration: none;
   color: #677788;
+  align-content: center;
 }
 
-/* --------------------------------------------------------- */
+/* -----------RIGHT--SIDE-------------------------------- */
 
 /* .feature-grid {
   display: grid;

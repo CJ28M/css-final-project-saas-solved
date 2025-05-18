@@ -18,7 +18,7 @@
   color: #667085;
 }
 
-.leftPart {
+.leftPart2 {
   gap: 60px;
   padding: 0 0 0 30px;
   width: 50%;
@@ -28,7 +28,7 @@
 
 /* TOP */
 
-.topPart .phase {
+.topPart2 .phase {
   display: flex;
   flex-direction: row;
   gap: 34px;
@@ -68,7 +68,7 @@
 
 /* RIGHT PART */
 
-.rightPart {
+.rightPart2 {
   gap: 10px;
 }
 
