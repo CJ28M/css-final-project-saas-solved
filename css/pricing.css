@@ -99,10 +99,13 @@
   color: #677788;
 }
 
-.planF {
+.planFooter {
   gap: 10px;
   display: flex;
   flex-direction: column;
+}
+
+button {
 }
 
 /* right side */
