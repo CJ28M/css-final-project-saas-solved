@@ -101,19 +101,54 @@
 
 .planFooter {
   gap: 10px;
+  width: 137px;
   display: flex;
   flex-direction: column;
 }
 
+.active {
+  gap: 24px;
+}
+
 button {
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+  padding: 15px 25px 15px 25px;
+  gap: 8px;
+  background-color: #2476ff;
+}
+
+button p {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 100%;
+  align-content: center;
+}
+
+button i {
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  color: #2476ff;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.planFooter span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  color: #677788;
+  align-self: center;
 }
 
 /* right side */
 
 .planFeatures {
   /* border: 5px solid red; */
-  width: fill;
-  height: fill;
   gap: 10px;
   display: flex;
   flex-direction: column;
@@ -123,29 +158,28 @@ button {
 .rowTwo {
   display: flex;
   flex-direction: row;
-  width: fill;
+  /* width: fill; */
   gap: 10px;
-  height: 219px;
+  /* height: 219px; */
   border: 2px solid purple;
 }
 
 .planFi {
   display: flex;
   flex-direction: column;
-  width: Fill;
-  height: 219px;
+  /* width: Fill; */
+  /* height: 219px; */
   border: 1px #ffffff;
-  /* border: 2px solid orange; */
+  padding: 20px;
+  gap: 20px;
 }
 
 .itemContent {
   display: flex;
   flex-direction: column;
-  height: 179px;
-  width: auto;
   align-items: flex-start;
   gap: 20px;
-  /* border: 8px solid blue; */
+  border: 2px solid blue;
 }
 
 .components,
@@ -154,4 +188,21 @@ button {
 .moneyback {
   width: 50px;
   height: 50px;
+}
+
+.iTitle {
+  gap: 10px;
+}
+
+.iTitle span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.itemContent .rowData {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #677788;
 }
