@@ -62,7 +62,7 @@
   width: 100%;
   height: 50px;
   gap: 4px;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
 }
 
 .top2 .Lline,
@@ -86,7 +86,10 @@
   gap: 10px;
   padding: 10px;
   background-color: #ecf2ff;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bulletCircle .bulletIn {
