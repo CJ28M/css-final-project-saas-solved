@@ -4,29 +4,25 @@
 .hireUs {
   padding: 30px;
   width: auto;
-  height: 708px;
+  /* height: 708px; */
   display: flex;
   flex-direction: row;
   background-color: #20335b;
 }
 
-.hire-us-person .name {
-  color: #ffffff;
-}
-
-.hire-us-person .role {
-  color: #667085;
-}
-
 .leftPart2 {
   gap: 60px;
-  padding: 0 0 0 30px;
-  width: 50%;
+  padding: 0 0 0 70px;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
 }
 
 /* TOP */
+
+.topPart2 {
+  gap: 32px;
+}
 
 .topPart2 .phase {
   display: flex;
@@ -47,7 +43,26 @@
 }
 
 .hireTitle span {
+  display: flex;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+}
+
+.hireTitle p {
+  color: #677788;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.phase span {
+  color: #ffffff;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .hireTitle .line2 {
@@ -56,15 +71,44 @@
   height: 1px;
 }
 
-.hireTitle p {
-  color: #677788;
+/* BOTTOM */
+
+.buttomPart {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.phase span {
+.hire-us-person {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 0;
+  gap: 4px;
+}
+
+.hire-us-person .name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
   color: #ffffff;
 }
 
-/* BOTTOM */
+.hire-us-person .role {
+  color: #677788;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.personalImage {
+  gap: 30px;
+}
+
+.man {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
 
 /* RIGHT PART */
 
@@ -72,11 +116,7 @@
   gap: 10px;
 }
 
-.formData p {
-  color: black;
-}
-
-.formData {
+.hire-us-form {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -87,6 +127,34 @@
 
 .formData {
   gap: 20px;
+}
+
+.formData p {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #e6e8f2;
+  padding: 10px;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 510;
+  line-height: 24px;
+}
+
+#first {
+  color: #828282;
 }
 
 .form20 {
