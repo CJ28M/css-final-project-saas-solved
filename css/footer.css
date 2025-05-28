@@ -3,8 +3,8 @@
 footer {
   display: flex;
   flex-direction: row;
-  height: 246px;
-  width: 100%;
+  /* height: 246px; */
+  /* width: 100%; */
   padding: 40px 30px 40px 30px;
   gap: 40px;
   color: black;
@@ -15,7 +15,7 @@ footer {
   /* height: 166px; */
   display: flex;
   flex-direction: row;
-  width: -webkit-fill-available;
+  width: 100%;
   /* display: grid; */
   /* grid-template-columns: 2fr 1fr 1fr 1fr; */
   gap: 40px;
@@ -23,7 +23,7 @@ footer {
 }
 
 .frame14 {
-  height: 93.76px;
+  /* height: 93.76px; */
   width: 251px;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ footer {
 }
 
 .frame15 {
-  height: 166px;
+  /* height: 166px; */
   display: flex;
   flex-direction: row;
   gap: 49px;
@@ -54,18 +54,20 @@ footer {
 .frame18,
 .frame19 {
   gap: 20px;
-  /* width: 110px; */
-  border: 2px solid magenta;
+  border: 2px solid aqua;
 }
 
 h3 {
   font-size: 18px;
+  font-weight: 860;
+  line-height: 100%;
+  color: #000;
 }
 
 .menuItem2 {
   display: flex;
   flex-direction: row;
-  border: 2px solid red;
+  border: 2px solid peru;
   gap: 9px;
 }
 
@@ -76,23 +78,24 @@ h3 {
 .badge {
   height: auto;
   width: auto;
-  font-size: 8px;
   border-radius: 3px;
-  color: #ffffff;
-  font-weight: 510;
   background-color: #2476ff;
   padding: 2px 4px 2px 4px;
   gap: 10px;
-  align-self: auto;
   align-content: center;
 }
 
-/* .nav16,
-.nav17,
-.nav18,
-.nav19 {
+.badge p {
+  font-weight: 510;
+  font-size: 8px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.navF {
   gap: 10px;
-} */
+  border: 2px solid magenta;
+}
 
 /* .footer-about .logo {
   width: 100px;
