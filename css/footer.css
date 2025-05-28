@@ -1,6 +1,8 @@
 /* Footer */
 
 footer {
+  display: flex;
+  flex-direction: row;
   height: 246px;
   width: 100%;
   padding: 40px 30px 40px 30px;
@@ -10,9 +12,10 @@ footer {
 }
 
 .frame2 {
-  height: 166px;
+  /* height: 166px; */
   display: flex;
   flex-direction: row;
+  width: -webkit-fill-available;
   /* display: grid; */
   /* grid-template-columns: 2fr 1fr 1fr 1fr; */
   gap: 40px;
@@ -25,6 +28,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border: 2px solid lime;
 }
 
 .logo1 {
@@ -42,11 +46,16 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 49px;
+  border: 2px solid blue;
 }
 
-.frame16 {
+.frame16,
+.frame17,
+.frame18,
+.frame19 {
   gap: 20px;
-  width: 110px;
+  /* width: 110px; */
+  border: 2px solid magenta;
 }
 
 h3 {
@@ -78,12 +87,12 @@ h3 {
   align-content: center;
 }
 
-.nav16,
+/* .nav16,
 .nav17,
 .nav18,
 .nav19 {
   gap: 10px;
-}
+} */
 
 /* .footer-about .logo {
   width: 100px;

@@ -13,7 +13,7 @@
 .leftPart2 {
   gap: 60px;
   padding: 0 0 0 70px;
-  /* width: 50%; */
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -21,10 +21,12 @@
 /* TOP */
 
 .topPart2 {
+  display: flex;
+  flex-direction: column;
   gap: 32px;
 }
 
-.topPart2 .phase {
+.phase {
   display: flex;
   flex-direction: row;
   gap: 34px;
