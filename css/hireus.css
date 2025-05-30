@@ -74,6 +74,15 @@
 
 .formData p {
   color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .formData {

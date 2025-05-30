@@ -4,7 +4,7 @@ footer {
   display: flex;
   flex-direction: row;
   /* height: 246px; */
-  /* width: 100%; */
+  width: 100%;
   padding: 40px 30px 40px 30px;
   gap: 40px;
   color: black;
@@ -24,7 +24,7 @@ footer {
 
 .frame14 {
   /* height: 93.76px; */
-  width: 251px;
+  /* width: 251px; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -34,6 +34,17 @@ footer {
 .logo1 {
   width: 100px;
   height: 29.76px;
+}
+
+.nav14 {
+  border: 2px solid lightseagreen;
+  gap: 10px;
+}
+
+.menuItem14 {
+  gap: 9px;
+  display: flex;
+  flex-direction: row;
 }
 
 .menuItem {
@@ -76,8 +87,8 @@ h3 {
 }
 
 .badge {
-  height: auto;
-  width: auto;
+  /* height: auto;
+  width: auto; */
   border-radius: 3px;
   background-color: #2476ff;
   padding: 2px 4px 2px 4px;
