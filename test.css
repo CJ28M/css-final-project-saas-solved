@@ -20,17 +20,12 @@ body {
 /* Header */
 .header {
   display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
   flex-direction: row;
   padding: 10px 30px 10px 30px;
   justify-content: space-between;
   background-color: #f6f8fa;
-}
-
-.header .container {
-  margin: 0%;
-  display: flex;
-  flex-direction: row;
-  color: #f6f8fa;
 }
 
 .nav-brand {
@@ -49,21 +44,31 @@ body {
   font-weight: bold;
 }
 
+.containerN {
+  display: flex;
+  color: #f6f8fa;
+  flex-direction: row;
+  gap: 30px;
+  padding: 6px 14px 6px 14px;
+}
+
 .nav-menu {
-  display: none;
   align-items: center;
-  gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .nav-link {
   text-decoration: none;
-  color: #6b7280;
-  font-size: 0.875rem;
-  transition: color 0.2s;
+  color: #677788;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
 }
 
 .nav-link:hover {
-  color: #111827;
+  color: #2476ff;
 }
 
 /* Buttons */
@@ -82,26 +87,42 @@ body {
 }
 
 .btn-primary {
-  background-color: #3b82f6;
-  color: white;
+  display: flex;
+  border-radius: 30px;
+  padding: 15px 25px 15px 25px;
+  gap: 20px;
+  background-color: #2476ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
 }
 
-.btn-primary:hover {
+/* .btn-primary:hover {
   background-color: #2563eb;
-}
+} */
 
 .btn-link {
   background: none;
-  color: #3b82f6;
-  padding: 0.5rem 0;
+  color: #677788;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
 }
 
-.btn-link:hover {
+/* .btn-link:hover {
   text-decoration: underline;
-}
+} */
 
-.btn-with-icon {
-  gap: 0.5rem;
+button i {
+  width: 18px;
+  height: 18px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  color: #2476ff;
+  background-color: #ffffff;
+  border: 2px solid lime;
 }
 
 .btn-full {
@@ -109,77 +130,86 @@ body {
 }
 
 /* Hero Section */
+
+.topSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: url(/assets/bg/background-top.svg);
+}
+
 .hero {
-  padding: 3rem 0 4rem;
+  padding: 40px 30px 0 30px;
 }
 
 .hero-content {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
   align-items: center;
 }
 
+/* LEFT */
+.hero-left {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 60px 0;
+  gap: 30px;
+}
+
 .hero-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  line-height: 1.2;
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.hero-title span {
+  /* width: 334px;
+  height: 144px; */
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  align-self: flex-start;
 }
 
 .hero-subtitle {
-  color: #6b7280;
-  margin-bottom: 1.5rem;
-  font-size: 1.125rem;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #677788;
 }
 
 .hero-actions {
   display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
+  gap: 24px;
 }
 
-.integration-showcase {
+i {
+}
+
+/* RIGHT */
+
+.hero-visual {
+  border: 2ps solid red;
+}
+
+.asana,
+.atlassian,
+.calendar,
+.google-ads,
+.paypal,
+.weave,
+.google {
+  width: 48px;
+  height: 48px;
+}
+
+/* .integration-showcase {
   background-color: #f3f4f6;
   border-radius: 0.75rem;
   padding: 2rem;
   position: relative;
   min-height: 300px;
-}
-
-.integration-logo {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.logo-google {
-  top: 2rem;
-  left: 2rem;
-}
-.logo-atlassian {
-  top: 3rem;
-  right: 3rem;
-}
-.logo-slack {
-  bottom: 3rem;
-  right: 5rem;
-}
-.logo-paypal {
-  bottom: 6rem;
-  left: 4rem;
-}
-.logo-figma {
-  bottom: 2rem;
-  left: 8rem;
-}
-.logo-calendar {
-  bottom: 4rem;
-  right: 2rem;
-}
+} */
 
 /* Why Front Section */
 .why-front {
@@ -556,9 +586,9 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
-  .hero-title {
+  /* .hero-title {
     font-size: 3rem;
-  }
+  } */
 
   .features-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -582,7 +612,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .container {
+  /* .container {
     padding: 0 2rem;
   }
 
@@ -592,5 +622,5 @@ body {
 
   .hero-title {
     font-size: 3.5rem;
-  }
+  } */
 }
