@@ -605,7 +605,7 @@ button i {
 
 /* RIGHT PART */
 
-.rightPart2 {
+/* .rightPart2 {
   gap: 10px;
 }
 
@@ -640,6 +640,124 @@ button i {
   flex-direction: row;
   gap: 16px;
   justify-content: center;
+} */
+
+.rightPart2 {
+  gap: 10px;
+}
+
+.formData2 {
+  gap: 20px;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
+  color: #111827;
+  padding: 30px;
+  gap: 37px;
+  border-radius: 10px;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  padding: 10px;
+  border: 1px solid #e6e8f2;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.form-select {
+  padding: 10px 16px 10px 10px;
+  font-weight: 510;
+  font-size: 14px;
+}
+
+.form-input-full {
+  width: 100%;
+}
+
+.form-textarea {
+  min-height: 150px;
+  resize: vertical;
+  font-weight: 510;
+  line-height: 22px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 5px;
+}
+
+.checkbox {
+  width: 25px;
+  height: 25px;
+  padding-top: 4px;
+  gap: 10px;
+  color: #e6e8f2;
+  border-radius: 3px;
+}
+
+.marketing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  font-weight: 510;
+  line-height: 22px;
+  color: #828282;
+  gap: 10px;
+}
+
+.privacy-links {
+  display: flex;
+  gap: 28px;
+}
+
+.privacy-link {
+  color: #677788;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 1px dashed #677788;
+}
+
+.privacy-link:hover {
+  color: #2476ff;
+}
+
+.btn {
+  align-self: center;
+  /* width: 125px; */
 }
 
 /*---------------------------- Footer------------------------------ */
@@ -652,7 +770,7 @@ footer {
   padding: 40px 30px 40px 30px;
   gap: 40px;
   color: black;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   max-width: 1200px;
   margin: 0 auto;
@@ -664,10 +782,11 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
+  justify-content: space-evenly;
   /* display: grid; */
   /* grid-template-columns: 2fr 1fr 1fr 1fr; */
   gap: 40px;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
 }
 
 .frame14 {
@@ -676,7 +795,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 2px solid lime;
+  /* border: 2px solid lime; */
 }
 
 .logo1 {
@@ -685,7 +804,7 @@ footer {
 }
 
 .nav14 {
-  border: 2px solid lightseagreen;
+  /* border: 2px solid lightseagreen; */
   gap: 10px;
 }
 
@@ -693,6 +812,14 @@ footer {
   gap: 9px;
   display: flex;
   flex-direction: row;
+  font-size: 14px;
+  font-weight: 510;
+  line-height: 100%;
+  color: #677788;
+}
+
+.menuItem14:hover {
+  color: #2476ff;
 }
 
 .menuItem {
@@ -700,12 +827,22 @@ footer {
   gap: 9px;
 }
 
+#menu19 {
+  gap: 9px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menuItem:hover {
+  color: #2476ff;
+}
+
 .frame15 {
   /* height: 166px; */
   display: flex;
   flex-direction: row;
   gap: 49px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .frame16,
@@ -713,7 +850,7 @@ footer {
 .frame18,
 .frame19 {
   gap: 20px;
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
 }
 
 h3 {
@@ -726,7 +863,7 @@ h3 {
 .menuItem2 {
   display: flex;
   flex-direction: row;
-  border: 2px solid peru;
+  /* border: 2px solid peru; */
   gap: 9px;
 }
 
@@ -753,7 +890,7 @@ h3 {
 
 .navF {
   gap: 10px;
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
 }
 
 /* .footer-about .logo {
