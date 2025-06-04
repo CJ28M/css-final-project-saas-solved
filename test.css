@@ -183,12 +183,9 @@ button i {
   gap: 24px;
 }
 
-i {
-}
-
 /* RIGHT */
 
-.hero-visual {
+/* .hero-visual {
   border: 2ps solid red;
 }
 
@@ -201,7 +198,7 @@ i {
 .google {
   width: 48px;
   height: 48px;
-}
+} */
 
 /* .integration-showcase {
   background-color: #f3f4f6;
@@ -212,7 +209,7 @@ i {
 } */
 
 /* Why Front Section */
-.why-front {
+/* .why-front {
   padding: 3rem 0;
   text-align: center;
 }
@@ -262,10 +259,10 @@ i {
 .feature-title {
   font-weight: 500;
   font-size: 0.875rem;
-}
+} */
 
 /* Pricing Section */
-.pricing {
+/* .pricing {
   padding: 3rem 0;
 }
 
@@ -391,7 +388,7 @@ i {
 .badge-blue {
   background-color: #dbeafe;
   color: #1d4ed8;
-}
+} */
 
 /* Hire Us Section */
 .hire-us {

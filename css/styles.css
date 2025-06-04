@@ -13,7 +13,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -537,14 +537,22 @@ button i {
 
 .hireUs {
   padding: 30px;
-  width: auto;
-  height: 708px;
+
   display: flex;
   flex-direction: row;
   background-color: #20335b;
+}
 
+.container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.hire-us-content {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  align-items: center;
 }
 
 .hire-us-person .name {
@@ -557,13 +565,17 @@ button i {
 
 .leftPart2 {
   gap: 60px;
-  padding: 0 0 0 30px;
-  width: 50%;
+  padding: 0 0 0 70px;
+
   display: flex;
   flex-direction: column;
 }
 
 /* TOP */
+
+.topPart2 {
+  gap: 32px;
+}
 
 .topPart2 .phase {
   display: flex;
@@ -581,10 +593,14 @@ button i {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 370px;
 }
 
 .hireTitle span {
   color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
 }
 
 .hireTitle .line2 {
@@ -595,52 +611,65 @@ button i {
 
 .hireTitle p {
   color: #677788;
-}
-
-.phase span {
-  color: #ffffff;
-}
-
-/* BOTTOM */
-
-/* RIGHT PART */
-
-/* .rightPart2 {
-  gap: 10px;
-}
-
-.formData p {
-  color: black;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 }
 
-.formGroup {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
+.phase {
+  width: 370px;
+  padding-top: 32px;
+}
+.phase span {
+  color: #ffffff;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.formData {
-  background-color: #ffffff;
+/* BOTTOM */
+
+/* LEFT PART */
+
+.bottomPart {
+  gap: 20px;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  padding: 30px;
-  gap: 37px;
 }
 
-.formData {
-  gap: 20px;
-}
-
-.form20 {
+.hire-us-person {
   display: flex;
-  flex-direction: row;
-  gap: 16px;
-  justify-content: center;
-} */
+  flex-direction: column;
+  padding-right: 20px;
+  gap: 4px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.role {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #677788;
+}
+
+.personImg {
+  gap: 30px;
+}
+
+.personC {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+/*--------------------- RIGHT PART----------- */
 
 .rightPart2 {
   gap: 10px;
@@ -648,6 +677,8 @@ button i {
 
 .formData2 {
   gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form-container {
@@ -736,11 +767,18 @@ button i {
   line-height: 22px;
   color: #828282;
   gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .privacy-links {
   display: flex;
   gap: 28px;
+  flex-direction: row;
+}
+
+.contact-form .privacy-links {
+  align-self: center;
 }
 
 .privacy-link {
@@ -772,9 +810,8 @@ footer {
   color: black;
   /* border: 2px solid red; */
 
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  /* max-width: 1200px;
+  margin: 0 auto; */
 }
 
 .frame2 {
@@ -850,6 +887,8 @@ footer {
 .frame18,
 .frame19 {
   gap: 20px;
+  display: flex;
+  flex-direction: column;
   /* border: 2px solid aqua; */
 }
 
@@ -879,6 +918,8 @@ h3 {
   padding: 2px 4px 2px 4px;
   gap: 10px;
   align-content: center;
+  align-self: center;
+  height: 14px;
 }
 
 .badge p {
@@ -893,30 +934,6 @@ h3 {
   /* border: 2px solid magenta; */
 }
 
-/* .footer-about .logo {
-  width: 100px;
-  height: 29.76px;
-} */
-
-/* .footer-links h3 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 24px;
-} */
-
-/* .footer-links ul {
-  list-style: none;
-} */
-
-/* .footer-links li {
-  margin-bottom: 16px;
-} */
-
-/* .footer-links a {
-  color: black;
-  text-decoration: none;
-} */
-
 /* ----------------------------media query------------------------ */
 
 @media (min-width: 1024px) {
@@ -924,6 +941,14 @@ h3 {
     display: flex;
     flex-direction: column;
   }
+
+  .hire-us-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* .footer-grid {
+    grid-template-columns: repeat(5, 1fr);
+  } */
 }
 
 /* @media (max-width: 767px) {
