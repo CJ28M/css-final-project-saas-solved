@@ -21,7 +21,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px 30px 10px 30px;
   color: #f6f8fa;
 }
@@ -93,17 +93,24 @@ nav {
 } */
 
 .hero {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   padding: 40px 30px 0 30px;
   /* width: 1024px; */
-  width: 100%;
+  /* width: 100%; */
   /* border: 2px solid red; */
   background: url(/assets/bg/background-top.svg);
 }
 
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
 .leftPart {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
   padding: 0 0 60px 0;
@@ -155,23 +162,7 @@ nav {
   align-content: center;
 }
 
-/* -----------RIGHT--SIDE-------------------------------- */
-
-/* .feature-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-} */
-
-/* .feature-card {
-  padding: 32px;
-  border-radius: 12px;
-  background: #f9fafb;
-} */
-
 /*------------------ WHY------------------  */
-
-/* Why Font Section */
 
 .whyFont {
   /* width: 100%; */
@@ -798,6 +789,13 @@ button i {
   /* width: 125px; */
 }
 
+.btn:hover,
+button:hover {
+  background-color: #ffffff;
+  color: #2476ff;
+  border: 2px solid #2476ff;
+}
+
 /*---------------------------- Footer------------------------------ */
 
 footer {
@@ -822,7 +820,7 @@ footer {
   justify-content: space-evenly;
   /* display: grid; */
   /* grid-template-columns: 2fr 1fr 1fr 1fr; */
-  gap: 40px;
+  /* gap: 40px; */
   /* border: 2px solid orange; */
 }
 
@@ -843,6 +841,8 @@ footer {
 .nav14 {
   /* border: 2px solid lightseagreen; */
   gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .menuItem14 {
@@ -931,6 +931,8 @@ h3 {
 
 .navF {
   gap: 10px;
+  display: flex;
+  flex-direction: column;
   /* border: 2px solid magenta; */
 }
 
@@ -943,6 +945,10 @@ h3 {
   }
 
   .hire-us-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-content {
     grid-template-columns: 1fr 1fr;
   }
 
