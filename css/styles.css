@@ -347,7 +347,12 @@ nav {
   padding: 40px;
   gap: 50px;
   background-color: #ffffff;
+  /* box-shadow: 0 10px 20px 0 #00000026; */
+}
+
+.plan:hover {
   box-shadow: 0 10px 20px 0 #00000026;
+  transition-duration: 0.5s;
 }
 
 .plan .planH {
