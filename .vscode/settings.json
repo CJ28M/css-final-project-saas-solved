@@ -1,8 +1,8 @@
 {
   "liveServer.settings.port": 5501,
   "editor.cursorStyle": "block",
-  "editor.fontFamily": "Indie Flower",
+  "editor.fontFamily": "Caveat",
   "terminal.integrated.fontFamily": "Arial Unicode MS",
   "terminal.integrated.fontSize": 11,
-  "editor.fontSize": 14
+  "editor.fontSize": 16
 }
