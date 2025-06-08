@@ -168,7 +168,7 @@ nav {
   border-radius: 40px;
   padding: 16px;
   background-color: #ffffff;
-  box-shadow: 0 0 3px 0 #00000040;
+  filter: drop-shadow(0 3px 13px #00000040);
 }
 
 .icons {
@@ -177,7 +177,7 @@ nav {
   border-radius: 40px;
   padding: 10px;
   background-color: #ffffff;
-  box-shadow: 0 0 3px 0 #00000040;
+  filter: drop-shadow(0 3px 13px #00000040);
 }
 
 .asana,
@@ -189,6 +189,7 @@ nav {
   height: 48px;
   display: flex;
   justify-self: center;
+  z-index: 3;
 }
 
 .google,
@@ -197,6 +198,7 @@ nav {
   height: 40px;
   display: flex;
   justify-self: center;
+  z-index: 2;
 }
 
 .as {
@@ -468,7 +470,6 @@ nav {
   /* border: 5px solid pink; */
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
 #pricing .pTitle {
@@ -579,12 +580,14 @@ nav {
 }
 
 button {
+  width: max-content;
   display: flex;
   flex-direction: row;
   border-radius: 30px;
   padding: 15px 25px 15px 25px;
   gap: 8px;
   background-color: #2476ff;
+  color: #ffffff;
   border: none;
 }
 
@@ -1041,6 +1044,13 @@ footer {
 .menuItem {
   font-size: 14px;
   gap: 9px;
+}
+
+.menuItem i {
+  color: #677788;
+  /* font-size: 12px; */
+  align-content: center;
+  font-weight: 900;
 }
 
 #menu19 {

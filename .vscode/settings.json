@@ -4,5 +4,6 @@
   "editor.fontFamily": "Caveat",
   "terminal.integrated.fontFamily": "Arial Unicode MS",
   "terminal.integrated.fontSize": 11,
-  "editor.fontSize": 16
+  "editor.fontSize": 18,
+  "terminal.integrated.env.windows": {}
 }
