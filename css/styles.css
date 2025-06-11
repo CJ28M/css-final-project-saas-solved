@@ -1225,6 +1225,32 @@ h3 {
 
 /* ----------PRICING-------------- */
 
+.price {
+  padding-bottom: 60px;
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.planFlist {
+  padding: 0 44px 0 44px;
+  gap: 30px;
+}
+
+.planFlist .table-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan {
+  width: 100%;
+  align-items: center;
+}
+
+.planPrice {
+  align-self: center;
+}
+
 .btn:hover,
 button:hover {
   background-color: #2476ff;
