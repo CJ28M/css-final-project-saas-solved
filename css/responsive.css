@@ -1,32 +1,16 @@
 /* ----------------------------media query------------------------ */
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .hire-us-content {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .hero-content {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .fa-bars {
-    display: none;
-  }
-
-  /* .footer-grid {
-    grid-template-columns: repeat(5, 1fr);
-  } */
+.hire-us-content {
+  grid-template-columns: 1fr 1fr;
 }
 
-/* @media (max-width: 767px) {
-  body {
-  }
-} */
+.hero-content {
+  grid-template-columns: 1fr 1fr;
+}
+
+.fa-bars {
+  display: none;
+}
 
 @media (max-width: 1023px) {
   body {
@@ -101,40 +85,45 @@
   .Rlinex {
     width: 40%;
   }
-}
 
-/* ----------PRICING-------------- */
+  /* ----------PRICING-------------- */
 
-.planFlist {
-  height: auto;
-  padding: 0 44px 0 44px;
-  gap: 30px;
-}
+  .planFlist {
+    height: auto;
+    padding: 0 44px 0 44px;
+    gap: 30px;
+  }
 
-/* .planFlist .table-price {
-  display: flex;
-  flex-direction: column;
-} */
+  .planFlist .table-price {
+    display: flex;
+    flex-direction: column;
+  }
 
-.plan {
-  width: 100%;
-  align-items: center;
-}
+  .plan {
+    width: 100%;
+    align-items: center;
+  }
 
-.planPrice {
-  align-self: center;
-}
+  .planPrice {
+    align-self: center;
+  }
 
-.btn:hover,
-button:hover {
-  background-color: #2476ff;
-  color: #ffffff;
-  border: 2px solid #2476ff;
-}
+  .btn:hover,
+  button:hover {
+    background-color: #2476ff;
+    color: #ffffff;
+    border: 2px solid #2476ff;
+  }
 
-.plan:hover {
-  box-shadow: none;
-  transition-duration: 0.5s;
+  .plan:hover {
+    box-shadow: none;
+    transition-duration: 0.5s;
+  }
+
+  .hireUs {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 767px) {
@@ -142,6 +131,7 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
+
   /* .hero-content {
     grid-template-columns: 1fr;
   }
