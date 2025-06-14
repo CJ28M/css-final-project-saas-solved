@@ -139,12 +139,22 @@
   .planFlist {
     height: auto;
     padding: 0 44px 0 44px;
-    gap: 30px;
   }
 
   .planFlist .table-price {
     display: flex;
     flex-direction: column;
+  }
+
+  .planFi {
+    width: 100%;
+  }
+
+  .rowOne,
+  .rowTwo {
+    width: 100%;
+    gap: 10px;
+    align-self: center;
   }
 
   .plan {
