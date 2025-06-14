@@ -249,89 +249,91 @@ nav {
 
 /*-------------------------------------------- KEYFRAMES---------------------------------------------------- */
 /* -------RIGHT---TO---LEFT-------- */
-@keyframes g-move {
-  0% {
-    top: 10px;
-    left: 890px;
-    opacity: 0;
+@media (min-width: 1024px) {
+  @keyframes g-move {
+    0% {
+      top: 10px;
+      left: 890px;
+      opacity: 0;
+    }
+    100% {
+      top: 10px;
+      left: 64px;
+    }
   }
-  100% {
-    top: 10px;
-    left: 64px;
-  }
-}
 
-@keyframes ga-move {
-  0% {
-    top: 200px;
-    left: 890px;
-    opacity: 0;
+  @keyframes ga-move {
+    0% {
+      top: 200px;
+      left: 890px;
+      opacity: 0;
+    }
+    100% {
+      top: 200px;
+      left: 155px;
+    }
   }
-  100% {
-    top: 200px;
-    left: 155px;
-  }
-}
 
-@keyframes as-move {
-  0% {
-    top: 10px;
-    left: 870px;
-    opacity: 0;
+  @keyframes as-move {
+    0% {
+      top: 10px;
+      left: 870px;
+      opacity: 0;
+    }
+    100% {
+      top: 10px;
+      left: 485px;
+    }
   }
-  100% {
-    top: 10px;
-    left: 485px;
-  }
-}
 
-/* ---------BOTTOM---TO---TOP--------------------- */
+  /* ---------BOTTOM---TO---TOP--------------------- */
 
-@keyframes w-move {
-  0% {
-    left: 400px;
-    bottom: -60px;
-    opacity: 0;
+  @keyframes w-move {
+    0% {
+      left: 400px;
+      bottom: -60px;
+      opacity: 0;
+    }
+    100% {
+      left: 400px;
+      bottom: 100px;
+    }
   }
-  100% {
-    left: 400px;
-    bottom: 100px;
-  }
-}
 
-@keyframes p-move {
-  0% {
-    bottom: -60px;
-    left: 10px;
-    opacity: 0;
+  @keyframes p-move {
+    0% {
+      bottom: -60px;
+      left: 10px;
+      opacity: 0;
+    }
+    100% {
+      bottom: 100px;
+      left: 10px;
+    }
   }
-  100% {
-    bottom: 100px;
-    left: 10px;
-  }
-}
 
-@keyframes at-move {
-  0% {
-    bottom: -60px;
-    left: 180px;
-    opacity: 0;
+  @keyframes at-move {
+    0% {
+      bottom: -60px;
+      left: 180px;
+      opacity: 0;
+    }
+    100% {
+      bottom: 220px;
+      left: 180px;
+    }
   }
-  100% {
-    bottom: 220px;
-    left: 180px;
-  }
-}
 
-@keyframes c-move {
-  0% {
-    bottom: -60px;
-    left: 500px;
-    opacity: 0;
-  }
-  100% {
-    bottom: 0px;
-    left: 500px;
+  @keyframes c-move {
+    0% {
+      bottom: -60px;
+      left: 500px;
+      opacity: 0;
+    }
+    100% {
+      bottom: 0px;
+      left: 500px;
+    }
   }
 }
 
