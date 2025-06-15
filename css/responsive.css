@@ -208,12 +208,74 @@
   .frame2 {
     gap: 40px;
   }
+
+  .frame15 {
+    flex-wrap: wrap;
+    width: 417px;
+    justify-content: space-between;
+  }
 }
 /* -------------------------------- MOBILE------------------------------------ */
 @media (max-width: 767px) {
   body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* -----------------------------HERO---------------------------- */
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title h2 {
+  }
+
+  /* -----------------------------WHY--------------------------------- */
+  .whyFont {
+    padding-bottom: 60px;
+    gap: 40px;
+  }
+
+  .whyFontTitle {
+    padding: 0 16px 0 16px;
+    gap: 10px;
+  }
+
+  .whyData {
+    width: auto;
+  }
+  .bulletsList {
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    height: auto;
+  }
+
+  .bullet {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+  }
+
+  .Llinex,
+  .Rlinex,
+  .Lline,
+  .Rline {
+    display: none;
+  }
+
+  .bulletTitle {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bulletTitle span {
+    width: max-content;
   }
 
   /* .hero-content {
